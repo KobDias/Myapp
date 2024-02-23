@@ -11,6 +11,22 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'adm',
+    loadChildren: () => import('./adm/adm.module').then( m => m.ADMPageModule)
+  },
+  {
+    path: 'adm',
+    loadChildren: () => import('./adm/adm.module').then( m => m.ADMPageModule)
+  },
+  {
+    path: 'ds',
+    loadChildren: () => import('./cursos/ds/ds.module').then( m => m.DsPageModule)
+  },
+  {
+    path: 'adm',
+    loadChildren: () => import('./cursos/adm/adm.module').then( m => m.AdmPageModule)
+  },
 ];
 
 @NgModule({
