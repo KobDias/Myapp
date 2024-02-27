@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ADMPage } from './adm.page';
+import { EmadmPage } from './emadm.page';
 
-describe('ADMPage', () => {
-  let component: ADMPage;
-  let fixture: ComponentFixture<ADMPage>;
+describe('EmadmPage', () => {
+  let component: EmadmPage;
+  let fixture: ComponentFixture<EmadmPage>;
 
   beforeEach(async(() => {
-    fixture = TestBed.createComponent(ADMPage);
+    fixture = TestBed.createComponent(EmadmPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

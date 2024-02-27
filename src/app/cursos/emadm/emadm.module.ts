@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ADMPageRoutingModule } from './adm-routing.module';
+import { EmadmPageRoutingModule } from './emadm-routing.module';
 
-import { ADMPage } from './adm.page';
+import { EmadmPage } from './emadm.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ADMPageRoutingModule
+    EmadmPageRoutingModule
   ],
-  declarations: [ADMPage]
+  declarations: [EmadmPage]
 })
-export class ADMPageModule {}
+export class EmadmPageModule {}

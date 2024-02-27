@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Cursos.
+      Cursos da Etec
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,15 +14,34 @@
   </ion-header>
 
   <ion-list>
-    <ion-list-header>
-      <ion-label>Cursos</ion-label>
-    </ion-list-header>
     <ion-item>
-      <ion-label [routerLink]="['/adm']">Tec. em ADM</ion-label>
+      <ion-label (click)="adm()">Tec. Administração</ion-label>
     </ion-item>
     <ion-item>
-      <ion-label (click)="adm()">Sobre o curso</ion-label>
+      <ion-label (click)="ds()">Tec. Desenvolvimento de Sistemas</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="emadm()">EM. Administração</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="emds()">EM. Desenvolvimento de Sistemas</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="contabilidade()">Tec. Contabilidade</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="seguranca()">Tec. Segurança de trabalho</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="logistica()">Tec. Logistica</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="juridicos()">Tec. Serviços juridicos</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="enfermagem()">Tec. Enfermagem</ion-label>
     </ion-item>
   </ion-list>
 
 </ion-content>
+<!-- tec adm tec ds tec contabilidade tec enfermagem tec logistica tec segurança do trabalho tec serviços jurídicos EM Administração EM Desenvolvimento de Sistemas -->
